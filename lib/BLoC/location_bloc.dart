@@ -4,7 +4,7 @@ import 'package:bloc_pattern/BLoC/bloc.dart';
 
 import 'package:bloc_pattern/DataLayer/Location.dart';
 
-class LocationBloc extends Bloc {
+class LocationBloc implements Bloc {
   Location _location;
 
   Location get selectedLocation => _location;
